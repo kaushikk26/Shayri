@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity2 : AppCompatActivity(){
     lateinit var taxt : TextView
     lateinit var click: ListView
+
     var morning = arrayOf("ये कितनी खूबसूरत सुबह है,\n" +
             "इसे यादों से सजाने का जी चाहता है,\n" +
             "इस सुबह की खूबसूरती के साथ,\n" +

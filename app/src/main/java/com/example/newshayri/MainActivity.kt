@@ -19,10 +19,9 @@ class MainActivity : AppCompatActivity() {
         listview_main = findViewById(R.id.main)
 
         var adapter = Class1(this, array)
-
         listview_main.adapter = adapter
 
-        var animation :Animation=AnimationUtils.loadAnimation(this,R.anim.shayarilist_animation)
+        var animation : Animation=AnimationUtils.loadAnimation(this,R.anim.shayarilist_animation)
         animation.duration=3000
         listview_main.animation=animation
 
